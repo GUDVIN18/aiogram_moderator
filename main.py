@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 memory_storage = MemoryStorage()
 
 # Initialize bot and dispatcher
-bot = Bot(token="6974765983:AAFiWlYGZcrz_1o62Vw_RghDRsCe10HB-BU")
+bot = Bot(token="")
 dp = Dispatcher(bot, storage=memory_storage)
 
 class InputUserData(StatesGroup):
